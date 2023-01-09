@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+/* header */
+.countries { background-color: #036; color: #fff; font-size: 15px; padding: 15px; text-align: center; font-family: 'Roboto', sans-serif; }
+.countries span { padding: 0 20px; color: #036; }
+/* navbar */
+.navbar-nav > .active > a:hover { color: #666; background-color: #f2f2f2; }
+.navbar-brand img { width: 100px; padding-top: 20px; }
+.navbar-default .navbar-nav>li>a { color: #666; margin: 20px 10px; font-size: 15px; font-weight: 500; padding: 20px; font-family: 'Roboto', sans-serif; border-radius: 3px; }
+/* underline from center */
+.hvr-underline-from-center { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; }
+.hvr-underline-from-center:before { content: ""; position: absolute; z-index: -1; left: 51%; right: 51%; bottom: 0; background: #666; height: 1px; -webkit-transition-property: left, right; transition-property: left, right; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; }
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before { left: 0; right: 0; }
+/* banner */
+.carousel-control.left, .carousel-control.right { background-image: none; filter: none; }
+.carousel-inner>.item>img { width: 100%; }
+/* group companies */
+.companies { margin-top: 100px; text-align: center; color: #000; letter-spacing: 1px; font-family: 'Roboto', sans-serif; }
+.companies h2 { margin: 0 0 50px 0; font-weight: 400; }
+.companies .row { padding: 0 0 15px 0; }
+.view-details { margin: 50px 0; }
+.view-details a { background-color: #036; color: #fff; padding: 20px; font-size: 17px; border-radius: 7px; font-family: 'Roboto', sans-serif; text-align: center; }
+/* social media */
+.social-media { background-color: #036; color: #fff; padding: 15px; font-size: 17px; font-family: 'Roboto', sans-serif; }
+.social-media i { padding-right: 15px; }
+.social-icons { font-size: 25px; text-align: right; }
+/* footer */
+.footer { background-color: #f2f2f2; padding: 100px 15px; color: #000; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: 500; }
+.copyright { background-color: #f2f2f2; text-align: center; font-size: 15px; color: #666; padding: 15px; padding-bottom: 50px; font-family: 'Roboto', sans-serif; }
+.copyright a { color: #000; }
+/* -----ABOUT US------ */
+/* about */
+.about { background-color: #f2f2f2; padding: 50px 15px; font-family: 'Roboto', sans-serif; }
+.about h2 { font-weight: 400; }
+.about p { font-size: 17px; line-height: 30px; }
+.about-text { padding: 50px 50px 0 50px; }
+/* why */
+.why-content { margin-top: 100px; color: #333; font-family: 'Roboto', sans-serif; }
+.why-content p { font-size: 17px; line-height: 30px; }
+.why-content h2 { font-weight: 400; }
+.why-content .row { margin: 50px 0; }
+.why-boxes .col-md-6 { background-color: #666; color: #fff; padding: 30px 30px 0 30px; border: 5px solid #fff; height: 180px; }
+.why-content h3 { font-weight: 400; }
+.why-content i { font-size: 30px; }
+.icon { padding: 0; }
+/* -----GROUP COMPANIES------ */
+/* group */
+.group-bg { background-color: #f2f2f2; }
+.group { padding: 50px 0; color: #333; font-family: 'Roboto', sans-serif; }
+.group-text { padding: 50px 50px 0 50px; }
+.group-text p { font-size: 17px; line-height: 30px; }
+.group-text h2 { font-weight: 400; }
+/* minerals */
+.group-text h1 { font-weight: 400; font-size: 50px; }
+.group-text h3 { font-weight: 400; }
+.group-text h4 { font-size: 17px; line-height: 30px; }
+@media (max-width: 1365px) {
+/* ABOUT US */
+.about-text { padding: 0 27px 0 27px; }
+.about-text h2 { margin-top: 0; }
+.why-content h3 { font-size: 20px; }
+.why-content { margin-top: 75px; }
+.why-content .row { margin-top: 37px; }
+/* GROUP-COMPANIES */	
+.group-text-123 { padding-top: 0; }
+.group-text h2 { margin-top: 0; }
+}
+ @media (max-width:1023px) {
+.navbar-default .navbar-nav>li>a { font-size: 15px; padding: 20px 15px; }
+.companies img { margin-left: auto; margin-right: auto; display: block; margin-bottom: 15px; }
+.companies .row { padding: 0; }
+.footer { padding: 75px 15px 0px 15px; }
+.footer .col-md-6 { margin-bottom: 40px; }
+/* ABOUT US */
+.about-text { padding: 15px 15px 0 15px; }
+.about { padding: 30px; }
+.about h2 { margin-top: 0; }
+.about img { padding-top: 20px; }
+/* GROUP-COMPANIES */
+.group-text { padding-left: 27px; padding-right: 27px; }
+.group-text h2 { margin-top: 0; }
+.group-text h1 { font-size: 35px; }
+.group-text-123 { padding-top: 0px; }
+}
+@media (max-width:767px) {
+.flex-switch { display: flex; flex-direction: column-reverse; }
+.countries { font-size: 13px; padding: 15px; }
+.countries span { padding: 0 7px; }
+.navbar-default { height: auto; }
+.navbar-brand { height: 120px; }
+.navbar-brand img { width: 100px; }
+.navbar-default .navbar-nav>li>a { font-size: 15px; padding: 20px; margin: 0px 10px; }
+.companies { margin-top: 50px; }
+.companies h2 { font-size: 26px; margin: 0 0 35px 0; }
+.companies img { margin-bottom: 15px; }
+.companies .row { padding: 0; }
+.view-details { margin: 30px 0; }
+.view-details a { font-size: 15px; padding: 15px; }
+.social-media .col-md-4 { font-size: 15px; padding: 10px; }
+.social-media .social-icons { text-align: left; font-size: 25px; }
+.footer { padding: 50px 15px 0px 15px; }
+.footer .col-md-6 { margin-bottom: 25px; }
+.copyright { padding-top: 30px; font-size: 15px; }
+/* ABOUT US */
+.about { padding: 30px 15px; }
+.about-text { padding: 15px 15px 0 15px; }
+.why-content { margin-top: 50px; }
+.why-content .row { margin: 30px 0; }
+.why-content h3 { font-size: 17px; }
+.why-boxes .col-md-6 { padding: 20px 20px 0 20px; border: 3px solid #fff; }
+/* GROUP COMPANIES */
+.group-text h1 { font-size: 30px; }
+.group { padding: 30px 15px; }
+.group-text { padding: 15px 15px 0 15px; }
+.group-text h2 { font-size: 24px; }
+.group .col-md-4 { padding-bottom: 50px; }
+}
+@media (max-width:300px) {
+.countries span { padding: 0; }
+.countries { font-size: 12px; }
+}
+@media (max-width:299px) {
+body { display: none; }
+}
